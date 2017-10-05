@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  FaceMe
+//
+//  Created by Oneclick IT Solution on 10/5/17.
+//  Copyright © 2017 One Click IT Consultancy Pvt Ltd. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
+
+#import "Constant.h"
+#import "URLManager.h"
+#import "AsyncImageView.h"
+#import "JSON.h"
+#import "URBAlertView.h"
+#import "Reachability.h"
+#import "MBProgressHUD.h"
+
+#endif /* PrefixHeader_pch */
