@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     
-    //testing
+    //testing 1
     
     self.view.backgroundColor = [UIColor whiteColor];
 }
